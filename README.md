@@ -7,7 +7,7 @@
 - Exploratory data analysis: aggregates (`SUM`, `MAX`), rolling totals, ranking top companies per year.  
 - Structured workflow with staging tables for clean and reproducible analysis.
 
-## Project Overview
+## Project Steps
 This project analyzes company layoffs in MySQL:
 
 1. **Staging Tables:**  
@@ -18,7 +18,7 @@ This project analyzes company layoffs in MySQL:
    - Remove duplicates, trim strings, standardize industries/countries, convert dates.  
    - Handle missing values and propagate industry info by company.  
 
-3. **Exploratory Analysis (Questions Answered):**  
+3. **EDA - Here are the questions I was interested in answering:**  
    - Which company laid off the most employees overall?  
    - Which layoffs involved 100% of a workforce?  
    - How many employees were laid off per company, per industry, and per country?  
